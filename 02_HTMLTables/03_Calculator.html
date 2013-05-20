@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">	
+		table {
+			background-color: #808080;
+		}
+		
+		td {
+			text-align: center;
+		}
+		
+		table, 
+		td {
+			border: 1px solid #CCCCCC;
+		}
+		
+		input {
+			text-align: right;
+		}
+		
+		.biggerButton {
+			width: 70px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form name="calculator" method="get" action="#">
+		<table cellpadding="3" cellspacing="0">
+			<thead>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="4">
+						<input type="text" size="20" name="Result" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" name="one" value="1" />
+					</td>
+					<td>
+						<input type="button" name="two" value="2" />
+					</td>
+					<td>
+						<input type="button" name="three" value="3" />
+					</td>
+					<td>
+						<input type="button" name="plus" value="+" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" name="four" value="4" />
+					</td>
+					<td>
+						<input type="button" name="five" value="5" />
+					</td>
+					<td>
+						<input type="button" name="six" value="6" />
+					</td>
+					<td>
+						<input type="button" name="minus" value="-" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" name="seven" value="7" />
+					</td>
+					<td>
+						<input type="button" name="eight" value="8" />
+					</td>
+					<td>
+						<input type="button" name="nine" value="9" />
+					</td>
+					<td>
+						<input type="button" name="asterisk" value="*" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="button" name="zero" value="0" class="biggerButton" />
+					</td>
+					<td>
+						<input type="button" name="point" value="." />
+					</td>
+					<td>
+						<input type="button" name="slash" value="/" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
